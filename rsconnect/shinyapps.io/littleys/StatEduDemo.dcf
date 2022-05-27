@@ -1,0 +1,13 @@
+name: StatEduDemo
+title: StatEduDemo
+username:
+account: littleys
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6377151
+bundleId: 5950080
+url: https://littleys.shinyapps.io/StatEduDemo/
+when: 1653628073.46625
+lastSyncTime: 1653628073.46627
+asMultiple: FALSE
+asStatic: FALSE

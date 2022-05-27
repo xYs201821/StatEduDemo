@@ -16,7 +16,7 @@
 
 - 强用户交互
 
-- 网站地址:[https://littleys.shinyapps.io/ElementaryStatDemo](#https://littleys.shinyapps.io/ElementaryStatDemo)
+- 网站地址:[https://littleys.shinyapps.io/shinyproject/](#https://littleys.shinyapps.io/shinyproject/)
 
 - 基于Rshiny与ggplot2实现
 
@@ -599,7 +599,7 @@ dataServer <- function(id,size){
       plotServer(type_test(),test_data,real_data,size,level = reactive(input$level),
                  show = reactive(list(one=input$show1, two=input$show2, three=input$show3, real=input$getdata)),
                  test = test_res,real_test)
-    },res = 96)
+    },res = 96) 
     #画图的模块
     plotServer <- function(id, test_data, real_data, size, level,show,test,real_test){
   moduleServer(id,function(input,output,session){
@@ -647,11 +647,4 @@ dataServer <- function(id,size){
 
 <hr style="border-width:5px;border-color: #014"></hr>
 
-
-<details>
-<summary> 代码实现(占个位) </summary>
-
-```r
-
-```
-</details>
+详细源代码请见[github.c]()

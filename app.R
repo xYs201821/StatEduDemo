@@ -34,11 +34,12 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
     #test area
-  library(thematic)
-  library(shiny)
-  library(ggplot2)
-  library(rlang)
-  library(dplyr)
+  library(markdown)
+  library(purrr)
+  require(shiny)
+  require(ggplot2)
+  require(rlang)
+  require(dplyr)
   observeEvent(input$menu,{
     showModal(modalDialog(
       title = "Important message",
@@ -50,6 +51,4 @@ server <- function(input, output, session) {
   esServer("es")
   esServer("ds")
 }
-
-library(shiny)
 shinyApp(ui, server)

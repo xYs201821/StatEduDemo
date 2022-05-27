@@ -15,7 +15,7 @@ output: html_document
 
 - 基于Rshiny与ggplot2实现
 
-- 网站地址:[https://littleys.shinyapps.io/ElementaryStatDemo](#https://littleys.shinyapps.io/ElementaryStatDemo)
+- 网站地址:[https://littleys.shinyapps.io/shinyproject/](#https://littleys.shinyapps.io/shinyproject/)
 
 - [更多想法](#anchor5)
 
